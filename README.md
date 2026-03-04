@@ -1,5 +1,5 @@
 
-# <a href="https://doto-notes.vercel.app" target="_blank">BitType — Precision Typing & Performance Analytics</a>
+# <a href="https://bittype.vercel.app" target="_blank">BitType — Precision Typing & Performance Analytics</a>
 BitType is a high-performance, minimalist typing environment built for elite speed and accuracy.
 Featuring a premium Aero-Glass interface, BitType delivers real-time telemetry including WPM, CPS, accuracy tracking, and advanced post-session analytics.
 
@@ -10,7 +10,7 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 [![Visit Bittype](https://img.shields.io/badge/View-%20Bittype-9B72FF?style=flat)](https://bittype.vercel.app)
 
 <img width="100%" alt="Bittype Preview" src="/public/preview.png" />
-:star: Star me on GitHub — it keeps the notes flowing! ✨
+:star: Star me on GitHub — it keeps the notes flowing! 
 
 ---
 
@@ -19,21 +19,14 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 
 <p align="left">
 
-✔️ Advanced Post-Game Analytics — CPS, Raw WPM, Errors, and Session Insights
-
-✔️ Adaptive Word Engine — Dynamic paragraph generation
-
-✔️ Visual Feedback System — Instant color-coded keystroke validation
-
-✔️ Performance Rewards — Earn dynamic titles like “Speed Demon 🔥” or “Perfect Typist 🏆”
-
-✔️ Responsive Design — Optimized for all screen sizes
-
-✔️ Smart State Management — Precision timing with zero lag
-
-✔️ Interactive FAQ — Built-in scoring explanations
-
-✔️ Minimalist Zen Mode — No ads, no clutter — just you and the keys
+✔️ Advanced Post-Game Analytics — CPS, Raw WPM, Errors, and Session Insights <br>
+✔️ Adaptive Word Engine — Dynamic paragraph generation<br>
+✔️ Visual Feedback System — Instant color-coded keystroke validation<br>
+✔️ Performance Rewards — Earn dynamic titles like “Speed Demon 🔥” or “Perfect Typist 🏆”<br>
+✔️ Responsive Design — Optimized for all screen sizes<br>
+✔️ Smart State Management — Precision timing with zero lag<br>
+✔️ Interactive FAQ — Built-in scoring explanations<br>
+✔️ Minimalist Zen Mode — No ads, no clutter — just you and the keys<br>
 </p>
 
 ---
@@ -72,13 +65,17 @@ Final Accuracy
 
 <br>
 
-## License 📄
+### Clone the Repository
+```bash
+git clone https://github.com/byllzz/bittype.git
+cd bittype
+```
 
-This project is licensed under the MIT License.
-See LICENSE.md for full details.
+# License 📄
 
-If you like this project:
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
-⭐ Star the repository — it genuinely helps and keeps the WPM climbing.
 
-Have suggestions or ideas? Open an issue or reach out.
+# Feedback / Suggestions
+
+Reach out at bilalmlkdev@gmail.com. If you like this project, please ⭐ star the repo — it motivates future updates!
