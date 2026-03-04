@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="flex items-center gap-2 relative">
         <Logo />
         <h1 className="text-1xl font-bold absolute top-0 italic -right-15">
-          Type<span className="text-blue-900">Flow</span>{' '}
+          Bit<span className="text-blue-900">Type</span>{' '}
         </h1>
       </div>
       <Links />
