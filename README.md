@@ -10,7 +10,7 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 [![Visit Bittype](https://img.shields.io/badge/View-%20Bittype-9B72FF?style=flat)](https://bittype.vercel.app)
 
 <img width="100%" alt="Bittype Preview" src="/public/preview.png" />
-:star: Star me on GitHub — it keeps the notes flowing! 
+:star: Star me on GitHub — it keeps the notes flowing!
 
 ---
 
@@ -33,7 +33,7 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 
 ## Usage
 
-<details> <summary><b>1️⃣ Start Training & Initialization</b></summary> <br /> Start typing immediately. The timer initializes automatically on your first keystroke for high-precision tracking. </details> <details> <summary><b>2️⃣ Live Performance Tracking</b></summary> <br /> Your <b>WPM</b> and <b>Accuracy</b> update in real-time as you type. </details> <details> <summary><b>3️⃣ Instant Visual Feedback</b></summary> <br />
+<details> <summary><b>1️⃣ Start Training & Initialization</b></summary> <br /> Start typing immediately. The timer initializes automatically on your first keystroke for high-precision tracking. </details> <details> <summary><b>2️⃣ Live Performance Tracking</b></summary> <br /> Your <b>WPM</b> and <b>Accuracy</b> update in real-time as you type. </details> <details> <summary><b>3️⃣ Instant Visual Feedback</b></summary>
 
 ✅ Correct characters → subtle gray/black
 
