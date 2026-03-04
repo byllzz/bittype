@@ -1,6 +1,6 @@
 import Timer from '../components/game/Timer';
 import Paragraph from '../components/game/Paragraph';
-import Keyboard from '../components/keyboard/Keyboard';
+import Keyboard from '../components/game/Keyboard';
 import useTypingEngine from '../hooks/useTypingEngine';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
