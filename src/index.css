@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-fira : "Fira Code" , sans-serif;
+}
+html::-webkit-scrollbar {
+ display : none
+}
+@layer base {
+  html {
+    @apply scroll-smooth p-0 m-0;
+  }
+
+  body {
+    @apply text-black antialiased font-outfit p-0 m-0 border ;
+  }
+
+  button {
+    @apply border-none cursor-pointer;
+  }
+}
