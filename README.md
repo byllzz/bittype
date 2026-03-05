@@ -22,7 +22,7 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 ✔️ Advanced Post-Game Analytics — CPS, Raw WPM, Errors, and Session Insights <br>
 ✔️ Adaptive Word Engine — Dynamic paragraph generation<br>
 ✔️ Visual Feedback System — Instant color-coded keystroke validation<br>
-✔️ Performance Rewards — Earn dynamic titles like “Speed Demon 🔥” or “Perfect Typist 🏆”<br>
+✔️ Performance Rewards — Earn dynamic titles like “Speed Demon ” or “Perfect Typist 🏆”<br>
 ✔️ Responsive Design — Optimized for all screen sizes<br>
 ✔️ Smart State Management — Precision timing with zero lag<br>
 ✔️ Interactive FAQ — Built-in scoring explanations<br>
@@ -33,35 +33,39 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 
 ## Usage
 
-<details> <summary><b>1️⃣ Start Training & Initialization</b></summary> <br /> Start typing immediately. The timer initializes automatically on your first keystroke for high-precision tracking. </details> <details> <summary><b>2️⃣ Live Performance Tracking</b></summary> <br /> Your <b>WPM</b> and <b>Accuracy</b> update in real-time as you type. </details> <details> <summary><b>3️⃣ Instant Visual Feedback</b></summary>
+1. **Start Training & Initialization**
+    - Action: Begin **typing** the displayed text immediately.
+    - Logic: The **timer triggers** automatically on your first keystroke for high-precision tracking.
 
-✅ Correct characters → subtle gray/black
+2. **Live Performance Tracking**
+   - Real-time Updates: Your **WPM and Accuracy** refresh dynamically as you type.
+   - Precision: Metrics adjust with every single character entered to reflect your current pace.
 
-❌ Errors → vibrant red highlighting
+3. **Instant Visual Feedback**
+   - Correct: Characters shift to a **subtle gray/black** style.
+   - Incorrect: **Mistakes** are marked with vibrant red highlighting.
+   - Goal: Designed to reinforce accuracy and strengthen muscle memory through    immediate correction.
 
-Designed to strengthen muscle memory.
+4. **Session Completion**
+   - Finalization: Once the last **character is typed**, the system performs a state flush.
+   - Transition: You are automatically moved to the **Session Report Dashboard**.
 
-</details> <details> <summary><b>4️⃣ Session Completion</b></summary> <br /> Once the final character is typed, the system performs a state flush and transitions to the <b>Session Report Dashboard</b>. </details> <details> <summary><b>5️⃣ Deep Analytics Dashboard</b></summary> <br />
+5. **Deep Analytics Dashboard**
+   - Review a comprehensive breakdown of your performance:
+   - **Total Errors** & **Time Taken**
+   - **CPS** (Characters Per Second)
+   - **Raw WPM** & **Final Accuracy**
 
-Detailed session metrics include:
+6. **Performance Rewards**
+   - The **engine** evaluates speed and precision to unlock **elite titles**:
+   - Speed Demon: **High velocity** combined with **strong accuracy**.
+   - Perfect Typist: Achieved through **100%** precision.
 
-Total Errors
+7. **Reset & Continue**
+   - New Session: Click "Back to Training" to generate a **fresh**, **randomized** paragraph.
+   - Improvement: Start a new round immediately to beat your personal best.
 
-Time Taken
-
-CPS (Characters Per Second)
-
-Raw WPM
-
-Final Accuracy
-
-</details> <details> <summary><b>6️⃣ Performance Rewards</b></summary> <br /> The engine evaluates both speed and precision to unlock elite titles like:
-
-🔥 <b>Speed Demon</b> — High velocity with strong accuracy
-
-🏆 <b>Perfect Typist</b> — 100% precision
-
-</details> <details> <summary><b>7️⃣ Reset & Continue</b></summary> <br /> Click <b>"Back to Training"</b> to generate a fresh paragraph and begin another session. </details>
+---
 
 <br>
 
