@@ -1,5 +1,5 @@
 
-# <a href="https://bittype.vercel.app" target="_blank">BitType — Precision Typing & Performance Analytics</a>
+# <a href="https://bittype.vercel.app" target="_blank">BitType - Precision Typing & Performance Analytics</a>
 BitType is a high-performance, minimalist typing environment built for elite speed and accuracy.
 Featuring a premium Aero-Glass interface, BitType delivers real-time telemetry including WPM, CPS, accuracy tracking, and advanced post-session analytics.
 
