@@ -25,7 +25,7 @@ export default function Results() {
 
   return (
     <>
-      <div className="w-full flex items-center justify-between relative pt-2 overflow-hidden ">
+      <div className="w-full flex items-center justify-between relative pt-2 overflow-hidden scale-90 ">
         <section className="w-full max-w-362.5 mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000">
           {/* main dashboard container */}
           <div className="overflow-hidden relative">

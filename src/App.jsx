@@ -14,7 +14,7 @@ export default function App() {
   return (
     <Router>
       <div className="relative overflow-hidden">
-        <div className="fixed top-6 w-full flex items-center justify-between px-5 z-99">
+        <div className="fixed top-6 w-full flex items-center justify-between px-5 z-999">
           <NavBar />
         </div>
               <div>

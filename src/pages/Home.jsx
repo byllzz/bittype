@@ -53,11 +53,11 @@ export default function Home() {
     }
   }, [isFinished, navigate, wpm, accuracy, reward, totalErrors, timeTaken, totalChars]);
   return (
-    <div className="flex flex-col items-center justify-center relative w-full h-screen overflow-hidden p-0 m-0">
-      <div className="absolute right-20 top-40">
+    <div className="flex flex-col items-center justify-center relative w-full h-screen  p-0 m-0 scale-95">
+      <div className="absolute right-10 top-40">
         <Timer timeLeft={timeLeft} />
       </div>
-      <div className="relative top-7">
+      <div className="z-999">
         <GameControls
           mode={mode}
           setMode={setMode}
@@ -72,7 +72,7 @@ export default function Home() {
       <div className=" ">
         <Paragraph paragraph={paragraph} input={input} mode={mode} fontSize={fontSize} />
       </div>
-      <div className="relative top-10">
+      <div className="relative top-5">
         <Keyboard pressedKey={pressedKey} />
       </div>
     </div>
