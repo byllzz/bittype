@@ -8,19 +8,17 @@ export default function GameControls({ mode, setMode, generateParagraph, passTim
       {/* subtle hint */}
       <div className="flex items-center gap-2 text-black group cursor-default relative top-2">
         <Sparkles size={12} className="group-hover:text-blue-500 transition-colors" />
-        <span className="text-[10px] font-bold uppercase">
-          Select your challenge
-        </span>
+        <span className="text-[10px] font-outfit font-bold uppercase">Select your challenge</span>
       </div>
 
       {/* main glass dock */}
-      <div className="flex flex-row items-center gap-8 px-4 bg-white/40 backdrop-blur-2xl rounded-4xl border border-white/40 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] ring-1 ring-black/5 transition-all hover:bg-white/50">
+      <div className="flex flex-row items-center gap-8 px-4 bg-white/40 backdrop-blur-2xl rounded-4xl border border-white/40 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] ring-1 ring-black/5 transition-all hover:bg-white/50 z-99">
         {/*mode switch btns.. */}
         <div className="flex items-center gap-3 h-full">
           <div className="p-2 bg-blue-500/10 rounded-xl text-blue-600">
             <Layers size={18} />
           </div>
-          <div className="flex gap-1 py-2 cursor-pointer">
+          <div className="flex gap-1 py-2 cursor-pointer z-999">
             {['words', 'numbers', 'symbols', 'mixed', 'stories', 'rWords'].map(m => (
               <button
                 key={m}
@@ -32,7 +30,7 @@ export default function GameControls({ mode, setMode, generateParagraph, passTim
                   mode === m ? 'text-white' : 'text-zinc-500 hover:text-black hover:bg-white/60'
                 }`}
               >
-                <span className="relative z-10 capitalize">{m === 'rWords' ? '#Words' : m}</span>
+                <span className="relative z-99 capitalize">{m === 'rWords' ? '#Words' : m}</span>
                 {mode === m && (
                   <div className="absolute inset-0 bg-black text-white rounded-full shadow-sm animate-in fade-in zoom-in-95" />
                 )}
@@ -46,7 +44,7 @@ export default function GameControls({ mode, setMode, generateParagraph, passTim
 
         {/* time selectors.. */}
         <div className="flex items-center gap-3 relative right-2">
-          <div className="p-2 bg-amber-500/10 rounded-xl text-amber-600">
+          <div className="p-2 bg-amber-500/10 rounded-xl text-amber-600 relative right-2">
             <Clock size={18} />
           </div>
           <div className="flex gap-4 cursor-pointer">
@@ -54,7 +52,7 @@ export default function GameControls({ mode, setMode, generateParagraph, passTim
               <button
                 key={time}
                 onClick={() => setpassTime(time)}
-                className={`text-xs font-black transition-all cursor-pointer ${
+                className={`text-xs font-black border z-99 transition-all cursor-pointer ${
                   passTime === time
                     ? 'text-amber-600 scale-110 drop-shadow-[0_0_8px_rgba(217,119,6,0.3)]'
                     : 'text-zinc-400 hover:text-black'
@@ -79,9 +77,7 @@ export default function GameControls({ mode, setMode, generateParagraph, passTim
               <button
                 key={font.label}
                 onClick={() => setFontSize(font.value)}
-                className={`text-[10px] uppercase tracking-tighter cursor-pointer font-black transition-all ${
-                  'text-zinc-400 hover:text-black hover:scale-110'
-                }`}
+                className={`text-[10px] uppercase z-99 tracking-tighter cursor-pointer font-black transition-all ${'text-zinc-400 hover:text-black hover:scale-110'}`}
               >
                 {font.label}
               </button>

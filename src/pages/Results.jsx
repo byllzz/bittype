@@ -2,6 +2,7 @@ import { useLocation, useNavigate , Link } from "react-router-dom";
 import { RefreshCw, Target, Zap, Activity, Clock, ShieldCheck, ArrowLeft } from 'lucide-react';
 import SessionReport from "../components/game/SessionReport";
 import Reward from "../components/game/Reward";
+import NavBar from '../components/ui/NavBar';
 export default function Results() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -24,7 +25,10 @@ export default function Results() {
   };
 
   return (
-    <>
+   <div className="w-full relative">
+         <div className='fixed top-6 w-full px-15 z-99'>
+           <NavBar />
+         </div>
       <div className="w-full flex items-center justify-between relative pt-2 overflow-hidden scale-90 ">
         <section className="w-full max-w-362.5 mx-auto animate-in fade-in slide-in-from-bottom-8 duration-1000">
           {/* main dashboard container */}
@@ -126,7 +130,7 @@ export default function Results() {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 }
 

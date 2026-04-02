@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown, HelpCircle, ArrowLeft, RefreshCw } from 'lucide-react';
 import { Link , useNavigate } from "react-router-dom";
 import { faqs } from '../data/faqs';
-
+import NavBar from '../components/ui/NavBar';
 export default function Faqs() {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -13,7 +13,10 @@ export default function Faqs() {
   const navigate = useNavigate();
   const handleRestart = () => navigate('/'); // this goes to (back to home)
   return (
-    <>
+    <div className="w-full relative">
+          <div className='fixed top-6 w-full px-15 z-99'>
+            <NavBar />
+          </div>
       <div className="max-w-4xl w-full mx-auto py-20 px-6 animate-in fade-in slide-in-from-bottom-8 duration-1000 relative">
         <nav className="mb-12">
           <Link
@@ -112,7 +115,7 @@ export default function Faqs() {
                 size={22}
                 className="group-hover:rotate-180 transition-transform duration-700"
               />
-               New Test
+              New Test
             </button>
           </div>
 
@@ -120,6 +123,6 @@ export default function Faqs() {
           <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/10 rounded-full blur-[80px] -mr-32 -mt-32" />
         </div>
       </div>
-    </>
+    </div>
   );
 }

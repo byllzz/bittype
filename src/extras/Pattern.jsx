@@ -13,7 +13,7 @@ const Pattern = () => {
 
 const StyledWrapper = styled.div`
   .grid-wrapper {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;

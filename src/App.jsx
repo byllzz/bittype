@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // ui comps...
 import Navigations from './components/ui/Navigations';
-import NavBar from './components/ui/NavBar';
 import Pattern from './extras/Pattern';
 // pages used in typeflow...
 import Home from './pages/Home';
@@ -13,10 +12,7 @@ import Results from './pages/Results';
 export default function App() {
   return (
     <Router>
-      <div className="relative overflow-hidden">
-        <div className="fixed top-6 w-full flex items-center justify-between px-5 z-999">
-          <NavBar />
-        </div>
+      <div className="relative overflow-hidden bg-transparent">
               <div>
                 <Pattern />
               </div>

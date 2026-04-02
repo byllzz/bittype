@@ -1,16 +1,17 @@
 import React from 'react';
 import Logo from './Logo';
 import Links from './NavLinks';
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
   return (
-    <nav className="flex w-full max-w-full h-10 justify-between flex-row flex-nowrap items-center px-2">
-      <div className="flex items-center gap-2 relative">
+    <nav className="flex w-full justify-between flex-row z-10 items-center px-2">
+      <Link to="/" className="flex items-center gap-2 relative cursor-pointer">
         <Logo />
         <h1 className="text-1xl font-bold absolute top-0 italic -right-10">
-          Bit<span className="text-blue-900">Type</span>{' '}
+          Bit<span className="text-[#e6b38a]">Type</span>{' '}
         </h1>
-      </div>
+      </Link>
       <Links />
     </nav>
   );

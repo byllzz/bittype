@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Zap, Shield, Rocket, Cpu, ArrowLeft, RefreshCw } from 'lucide-react';
-
+import NavBar from '../components/ui/NavBar';
 const About = () => {
   const navigate = useNavigate();
   const handleRestart = () => navigate('/'); // this goes to (back to home)
-
   return (
-    <>
-
+    <div className="w-full relative">
+      <div className='fixed top-6 w-full px-15 z-99'>
+        <NavBar />
+      </div>
       <div className="max-w-5xl w-full mx-auto py-20 px-6 animate-in fade-in slide-in-from-bottom-8 duration-1000 relative">
         {/* back navigation  */}
         <nav className="mb-12">
@@ -24,7 +25,7 @@ const About = () => {
         {/* hero section */}
         <section className="mb-20">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black text-white text-[10px] font-black uppercase tracking-[0.2em] mb-6">
-            <Zap size={12} fill="currentColor" className='text-blue-900' />
+            <Zap size={12} fill="currentColor" className="text-blue-900" />
             Project Overview
           </div>
           <h1 className="text-7xl md:text-8xl font-black text-zinc-900 tracking-tighter mb-8">
@@ -118,7 +119,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
