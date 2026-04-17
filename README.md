@@ -15,7 +15,7 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 ---
 
 
-# ✨ Features
+#  Features
 
 <p align="left">
 
@@ -80,6 +80,6 @@ cd bittype
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
 
-# Feedback / Suggestions
+# Feedback 
 
-Reach out at bilalmlkdev@gmail.com. If you like this project, please ⭐ star the repo — it motivates future updates!
+Reach out at **bilalmlkdev@gmail.com**. If you like this project, please ⭐ star the repo — it motivates future updates!
