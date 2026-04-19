@@ -67,8 +67,6 @@ Whether you're a developer sharpening your keystrokes or a typing enthusiast cha
 
 ---
 
-<br>
-
 ### Clone the Repository
 ```bash
 git clone https://github.com/byllzz/bittype.git
